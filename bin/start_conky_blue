@@ -1,0 +1,6 @@
+#!/bin/bash
+
+conky -c /usr/share/conky/conky_shortcuts_live_blue &&
+conky -c /usr/share/conky/conky_blue &&
+
+exit 0
