@@ -8,7 +8,7 @@ Firstly install aurman and headers for current kernel from pamac.
 
 Then type this commands:
 ```
-$ aurman -Syu --noconfirm cherrytree vmware-workstation keepnote rtl8812au422-dkms-git protonvpn-cli-ng vscodium-bin libpdfium-nojs megasync wps-office clion webstorm pycharm-professional
+$ aurman -Syu --noconfirm cherrytree vmware-workstation keepnote rtl8812au422-dkms-git protonvpn-cli-ng vscodium-bin libpdfium-nojs megasync wps-office clion webstorm pycharm-professional postman-bin
 ```
 ```
 $ sudo pacman -Syu --noconfirm keepassxc unclutter nvm redshift ghidra bleachbit rofi gxkb veracrypt discord telegram-desktop chromium calibre krita parole audacity obs-studio qbittorrent polybar flameshot udiskie compton kitty emacs gulp nodejs postgresql
