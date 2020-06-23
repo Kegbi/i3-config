@@ -17,6 +17,12 @@ x-scheme-handler/mailto=userapp-Thunderbird.desktop
 message/rfc822=userapp-Thunderbird.desktop
 application/pdf=epdfview.desktop
 application/x-bittorrent=deluge.desktop
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=wps-office-prometheus.desktop
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+x-scheme-handler/msteams=teams.desktop
+video/x-matroska=vlc.desktop
+x-scheme-handler/postman=Postman.desktop
+video/mp4=vlc.desktop
 
 [Added Associations]
 x-scheme-handler/http=userapp-Chromium;
@@ -37,3 +43,9 @@ x-scheme-handler/mailto=userapp-Thunderbird.desktop;
 message/rfc822=userapp-Thunderbird.desktop;
 application/pdf=epdfview.desktop;
 application/x-bittorrent=deluge.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=wps-office-prometheus.desktop;
+inode/directory=jetbrains-webstorm.desktop;vscodium-bin.desktop;emacs.desktop;keepnote.desktop;
+application/octet-stream=xarchiver.desktop;
+audio/mpeg=xfburn.desktop;
+video/mp4=vlc.desktop;
+application/javascript=mousepad.desktop;

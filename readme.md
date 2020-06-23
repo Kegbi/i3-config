@@ -2,50 +2,20 @@
 
 ## Installation instruction
 
-### 1: Installing packages
+### 1: Running script
 
-Firstly install aurman and headers for current kernel from pamac.
+If you want to install config on clean i3 manjaro, run "full-install.sh" script, it will install all tools at once.
+Basic syntax:
+full-install.sh account_username
 
-Then type this commands:
+If you want to install only config - run "install-configs.sh" from root.
+Basic syntax:
+install-configs.sh account_username
 
-```
-$ aurman -Syu --noconfirm cherrytree vmware-workstation keepnote rtl8812au422-dkms-git vscodium-bin libpdfium-nojs megasync wps-office clion clion-jre webstorm webstorm-jre pycharm-professional postman-bin
-```
+If you only want to install specific apps or tools, you can find necessary script in the "scripts" folder.
 
-```
-$ sudo pacman -Syu --noconfirm keepassxc unclutter nvm redshift ghidra bleachbit rofi gxkb veracrypt discord telegram-desktop chromium calibre krita parole audacity obs-studio qbittorrent polybar flameshot udiskie compton kitty emacs gulp nodejs postgresql pgadmin4 docker docker-machine docker-compose net-tools
-```
-
-### 2: Running script
-
-Clone this git repository:
-
-```
-$ git clone https://github.com/Kegbi/i3-config.git
-```
-
-Go to the script folder:
-
-```
-$ cd i3-config
-```
-
-Change script format to executable:
-
-```
-$ chmod +x install.sh
-```
-
-Run script with your linux account name as a parameter:
-
-```
-$ sudo ./install.sh linux_username
-```
-
-### 3: Enabling themes
+### 2: Enabling themes
 
 Change themes in lxappearance, qt5ct, lightdm-settings and reload your config (Super+Shift+r by default).
-
-### 4: Enjoy :)
 
 ![Screenshot](./images/screenshot.png)
