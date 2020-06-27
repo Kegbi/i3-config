@@ -21,6 +21,7 @@ cp -rf ./~/.i3/ /home/$user/
 cp -rf ./~/VSCodium/ /home/$user/
 cp -f ./~/.dmenurc /home/$user/
 cp -f ./~/.Xresources /home/$user/
+cp -f ./~/.profile /home/$user/
 
 cp -f ./images/1277916.jpg /usr/share/backgrounds/
 
