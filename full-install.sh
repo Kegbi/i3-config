@@ -18,15 +18,25 @@ echo "[+] Installing base tools..."
 cd scripts
 sudo chmod +x base-tools.sh
 ./base-tools.sh
-cd ..
 echo "[+] Base tools installed"
 
 echo "[+] Installing apps..."
-cd ./scripts/
 sudo chmod +x programs.sh
 sudo ./programs.sh
-cd ..
 echo "[+] Apps installed."
+
+echo "[+] Installing pulseaudio..."
+sudo chmod +x install-pulse.sh
+./install-pulse.sh
+echo "[+] Pulseaudio installed"
+
+echo "[+] Enabling services..."
+sudo chmod +x services.sh $user
+sudo ./services.sh
+cd ..
+echo "[+] Services enabled"
+
+chsh -s /bin/fish
 
 sudo chmod +x install-configs.sh
 sudo ./install-configs.sh $user
