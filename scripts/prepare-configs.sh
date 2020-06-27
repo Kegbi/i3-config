@@ -29,13 +29,6 @@ mkdir ../usr/share/themes/
 mkdir ../~/
 mkdir ../~/.config/
 mkdir ../~/.config/gtk-3.0/
-mkdir ../~/.config/gxkb/
-mkdir ../~/.config/kitty/
-mkdir ../~/.config/morc_menu/
-mkdir ../~/.config/nitrogen/
-mkdir ../~/.config/qt5ct/
-mkdir ../~/.config/rofi/
-mkdir ../~/.config/vlc/
 mkdir ../~/.i3/
 mkdir ../~/VSCodium/
 mkdir ../~/VSCodium/User
@@ -50,19 +43,19 @@ cp -f /home/$user/.Xresources ../~/
 cp -f /home/$user/.config/gtk-3.0/gtk.css ../~/.config/gtk-3.0/
 cp -f /home/$user/.config/gtk-3.0/settings.ini ../~/.config/gtk-3.0/
 
-cp -rf /home/$user/.config/gxkb/ ../~/.config/gxkb/
+cp -rf /home/$user/.config/gxkb/ ../~/.config/
 
-cp -rf /home/$user/.config/kitty/ ../~/.config/kitty/
+cp -rf /home/$user/.config/kitty/ ../~/.config/
 
-cp -rf /home/$user/.config/morc_menu/ ../~/.config/morc_menu/
+cp -rf /home/$user/.config/morc_menu/ ../~/.config/
 
-cp -rf /home/$user/.config/nitrogen/ ../~/.config/nitrogen/
+cp -rf /home/$user/.config/nitrogen/ ../~/.config/
 
-cp -rf /home/$user/.config/qt5ct/ ../~/.config/qt5ct/
+cp -rf /home/$user/.config/qt5ct/ ../~/.config/
 
-cp -rf /home/$user/.config/rofi/ ../~/.config/rofi/
+cp -rf /home/$user/.config/rofi/ ../~/.config/
 
-cp -rf /home/$user/.config/vlc/ ../~/.config/vlc/
+cp -rf /home/$user/.config/vlc/ ../~/.config/
 
 cp -f /home/$user/.config/compton.conf ../~/.config/
 

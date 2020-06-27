@@ -30,4 +30,6 @@ cp -rf ./usr/share/ /usr/
 
 cp -f ./bin/start_conky_blue /bin/
 
+chown -R $user /home/$user/ 
+
 echo "[+] Configs installed. Please, reload your i3 seesion (Super+Shift+r by default) and chose right theme in lxappearance, qt5ct and lightdm-settings"
