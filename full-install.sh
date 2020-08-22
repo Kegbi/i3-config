@@ -36,7 +36,7 @@ sudo ./services.sh
 cd ..
 echo "[+] Services enabled"
 
-chsh -s /bin/fish
+chsh -s /bin/zsh
 
 sudo chmod +x install-configs.sh
 sudo ./install-configs.sh $user
