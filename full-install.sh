@@ -31,7 +31,7 @@ sudo chmod +x install-pulse.sh
 echo "[+] Pulseaudio installed"
 
 echo "[+] Enabling services..."
-sudo chmod +x services.sh $user
+sudo chmod +x services.sh
 sudo ./services.sh
 cd ..
 echo "[+] Services enabled"

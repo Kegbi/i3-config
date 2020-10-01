@@ -1086,8 +1086,8 @@ combobox:drop(active) {
 }
 
 .linked:not(.vertical) > combobox:last-child > box > button.combo {
-  border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
 }
 
 .linked:not(.vertical) > combobox:only-child > box > button.combo {
@@ -2659,6 +2659,12 @@ popover.background.menu separator, .csd popover.background.menu separator {
   background-color: rgba(255, 255, 255, 0.12);
 }
 
+popover label.separator,
+popover.background label.separator,
+popover.background.menu label.separator {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 popover calendar,
 popover.background calendar,
 popover.background.menu calendar {
@@ -4144,6 +4150,18 @@ messagedialog.csd .dialog-action-area button:last-child {
 
 messagedialog entry {
   color: rgba(255, 255, 255, 0.7);
+}
+
+messagedialog expander title > arrow {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+messagedialog expander title > arrow:hover, messagedialog expander title > arrow:active {
+  color: #FFFFFF;
+}
+
+messagedialog expander title > arrow:disabled {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .background.csd filechooser, .background.csd filechooser placessidebar {
@@ -6381,6 +6399,15 @@ dialog.background.csd > box.dialog-vbox stack scrolledwindow viewport.frame.view
   min-height: 0;
   margin: 4px 0;
   padding: 0 10px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.nemo-window toolbar.primary-toolbar .linked.path-bar > button:hover, .nemo-window toolbar.primary-toolbar .linked.path-bar > button:active, .nemo-window toolbar.primary-toolbar .linked.path-bar > button:checked {
+  color: #FFFFFF;
+}
+
+.nemo-window toolbar.primary-toolbar .linked.path-bar > button:disabled {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .nemo-window toolbar.primary-toolbar .linked.path-bar > button:first-child, .nemo-window toolbar.primary-toolbar .linked.path-bar > button:last-child {
@@ -8250,7 +8277,7 @@ frame.raven-frame > border {
 }
 
 .raven .raven-header.top {
-  padding: 0;
+  padding: 0 0;
   background-color: #31313a;
   box-shadow: inset 0 -1px rgba(255, 255, 255, 0.08);
 }
@@ -8258,6 +8285,7 @@ frame.raven-frame > border {
 .raven .raven-header.top stackswitcher button {
   margin: -4px 0;
   min-height: 32px;
+  padding: 6px 24px;
 }
 
 .raven .raven-header.top button.image-button:dir(ltr) {
