@@ -365,7 +365,7 @@ bindsym $mod+m bar mode toggle
 # Color variables
 
 set $purple #5578FC
-set $white_border 
+set $white_border #FFFFFF
 
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
