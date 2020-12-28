@@ -1,0 +1,14 @@
+{
+  "format": "{status:icon} {artist} - {title}",
+  "markup_escape": false,
+  "status_icons": {
+    "Playing": "\uf04b",
+    "Paused": "\uf04c",
+    "Stopped": "\uf04d"
+  },
+  "mouse_buttons": {
+      "1": "PlayPause",
+      "9": "Previous",
+      "8": "Next"
+  }
+}
