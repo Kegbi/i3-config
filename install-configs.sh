@@ -17,6 +17,7 @@ fi
 echo "[+] Installing configs..."
 
 cp -rf ./~/.config/ /home/$user/
+cp -rf ./~/Documents/ /home/$user/
 cp -rf ./~/.i3/ /home/$user/
 cp -rf ./~/VSCodium/ /home/$user/
 cp -f ./~/.dmenurc /home/$user/
